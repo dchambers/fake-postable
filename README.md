@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dchambers/fake-postable.png)](https://travis-ci.org/dchambers/fake-postable)
+
 # Fake-Postable
 
 Fake `postMessage()` / `addEventListener()` implementations.
