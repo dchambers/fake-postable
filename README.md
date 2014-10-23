@@ -1,6 +1,6 @@
 # Fake-Postable
 
-Fake postMessage() / addEventListener() implementations.
+Fake `postMessage()` / `addEventListener()` implementations.
 
 ## Introduction
 
@@ -95,5 +95,4 @@ Whereas native _postable_ objects accept any _message_ that can be transferred u
 
 ## Transferables
 
-Native _postables_ support _transferrable_ objects, that are passed by reference rather than copied, and which cease to be available on the originating side after they are posted. Since this can not be simulated, and has very limited affect on program behaviour anyway, the `transferList` argument is ignored.
-
+Native _postables_ support _transferrable_ objects, that are passed by reference rather than copied, and which cease to be available on the originating side after they are posted. Since this can not be simulated, and has very limited affect on program behaviour anyway, the optional `transferList` argument is silently ignored.
